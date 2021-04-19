@@ -46,24 +46,3 @@ Adding a custom dataset can be done by modifying the `custom_datasets.py` file. 
 ## Usage
 
 Run `python main.py --DATASET "KSC" --DHCN_LAYERS 2 --SAMPLE_PERCENTAGE 10 --GPU '0,1,2,3'`.
-
-## License information
-
-Code for the DeepHyperX toolbox is dual licensed depending on applications, research or commercial.
-
----
-
-### RESEARCH AND NON COMMERCIAL PURPOSES
-
-##### Code license
-
-For research and non commercial purposes, all the code and documentation is released under the GPLv3 license:
-
-Copyright (c) 2018 ONERA and IRISA, Nicolas Audebert, Bertrand Le Saux, Sébastien Lefèvre.
-
-This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
-
-PLEASE ACKNOWLEDGE THE ORIGINAL AUTHORS AND PUBLICATION ACCORDING TO THE REPOSITORY github.com/nshaud/DeepHyperx OR IF NOT AVAILABLE:
-Nicolas Audebert, Bertrand Le Saux and Sébastien Lefèvre
-"Deep Learning for Classification of Hyperspectral Data: A comparative review",
-IEEE Geosciences and Remote Sensing Magazine, 2019.
