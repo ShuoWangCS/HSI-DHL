@@ -45,7 +45,7 @@ Adding a custom dataset can be done by modifying the `custom_datasets.py` file. 
 
 ## Usage
 
-Run `python Main.py --DATASET "KSC" --DHCN_LAYERS 2 --SAMPLE_PERCENTAGE 10 --GPU '0,1,2,3'`.
+Run `python main.py --DATASET "KSC" --DHCN_LAYERS 2 --SAMPLE_PERCENTAGE 10 --GPU '0,1,2,3'`.
 
 ## License information
 
