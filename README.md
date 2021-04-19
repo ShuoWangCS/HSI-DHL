@@ -33,11 +33,6 @@ Datasets
     ├── PaviaU_gt.mat
     └── PaviaU.mat
 ```
-
-### Adding a new dataset
-
-Adding a custom dataset can be done by modifying the `custom_datasets.py` file. Developers should add a new entry to the `CUSTOM_DATASETS_CONFIG` variable and define a specific data loader for their use case.
-
 ## Usage
 
 Run `python main.py --DATASET "KSC" --DHCN_LAYERS 2 --SAMPLE_PERCENTAGE 10 --GPU '0,1,2,3'`.
